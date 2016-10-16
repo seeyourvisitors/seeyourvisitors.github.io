@@ -1,1 +1,221 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>See Your Visitors</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/main.css" />
+    <script>
+    (function(g,i,a,n,t,s){g['SeeYourVisitors']=n;g[n]=g[n]||function(){
+    (g[n].q=g[n].q||[]).push(arguments)},g[n].l=1*new Date();t=i.createElement(a),
+    s=i.getElementsByTagName(a)[0];t.async=1;t.src='/gg.js';
+    s.parentNode.insertBefore(t,s)})(window,document,'script','gg');
+    gg('create', {
+        apiKey: "AIzaSyBXUcoN4fSb7LoEWIpttIwEYzDqtdKnJrQ",
+        authDomain: "seeyourvisitors-1b878.firebaseapp.com",
+        databaseURL: "https://seeyourvisitors-1b878.firebaseio.com"
+    });
+    gg('track');
+    </script>
+  </head>
+  <body class="homepage">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+        <div id="header">
+
+          <!-- Inner -->
+            <div class="inner">
+              <header>
+                <h1><a href="/" id="logo">See Your Visitors</a></h1>
+                <hr />
+                <p>An open source library to get real-time analytics of how your visitors use your website</p>
+              </header>
+              <footer>
+                <a href="#banner" class="button circled scrolly">Start</a>
+              </footer>
+            </div>
+
+          <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="https://github.com/seeyourvisitors/seeyourvisitors">Github</a></li>
+                <li><a href="https://github.com/seeyourvisitors/seeyourvisitors/wiki">Documentation</a></li>
+              </ul>
+            </nav>
+
+        </div>
+
+      <!-- Banner -->
+        <section id="banner">
+          <header>
+            <h2>Hi. You're looking at <strong>See Your Visitors</strong>.</h2>
+            <p>
+             An (open source) analytics library offering <strong>real-time stats</strong>, not just of page views but
+              mouse moves, scrolling and clicks. So you know exactly what your users do when they visit your website.
+            </p>
+          </header>
+        </section>
+
+      <!-- Carousel -->
+        <section class="carousel">
+          <div class="reel">
+
+            <article>
+              <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+              <header>
+                <h3><a href="#">Raw (un-processed) Data</a></h3>
+              </header>
+              <p>All data collected is available in its raw format an available for you to visualize and use how you please.</p>
+            </article>
+
+            <article>
+              <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+              <header>
+                <h3><a href="#">Real-Time</a></h3>
+              </header>
+              <p>We use <a href="http://firebase.google.com/">firebase</a> in the backend so all data is stored and processed in real time.</p>
+            </article>
+
+            <article>
+              <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+              <header>
+                <h3><a href="#">Small footprint</a></h3>
+              </header>
+              <p>The library is only 3.3Kb and loads firebase asynchronously adding minimal weight to your page.</p>
+            </article>
+
+            <article>
+              <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+              <header>
+                <h3><a href="#">In-page analytics</a></h3>
+              </header>
+              <p>Don't just track how users move from page to page, but how do your users interact within a page?</p>
+            </article>
+
+            <article>
+              <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+              <header>
+                <h3><a href="#">Open Source</a></h3>
+              </header>
+              <p>Our library is fully open source, with community-developed plugins to visualize your data.</p>
+            </article>
+          </div>
+        </section>
+
+      <!-- Main -->
+        <div class="wrapper style2">
+
+          <article id="main" class="container special">
+            <header>
+              <br/>
+              <h2><a href="#">Getting Started</a></h2>
+              <p>
+                Installing on your website is as simple as creating a <a href="http://firebase.google.com/">firebase</a> account, and adding the
+                HTML snippet below to your website.
+              </p>
+            </header>
+            <p>
+              <pre>
+                  &lt;script&gt;
+                  (function(g,i,a,n,t,s){g['SeeYourVisitors']=n;g[n]=g[n]||function(){
+                  (g[n].q=g[n].q||[]).push(arguments)},g[n].l=1*new Date();t=i.createElement(a),
+                  s=i.getElementsByTagName(a)[0];t.async=1;t.src='/gg.js';
+                  s.parentNode.insertBefore(t,s)})(window,document,'script','gg');
+                  gg('create', {
+                      apiKey: "YOUR_FIREBASE_KEY",
+                      authDomain: "YOUR_FIREBASE_AUTH",
+                      databaseURL: "YOUR_FIREBASE_DATABASE"
+                  });
+                  gg('track');
+                  &lt;/script&gt;
+              </pre>
+            </p>
+            <footer>
+              <a href="#" class="button">Get Started</a>
+            </footer>
+          </article>
+
+        </div>
+
+      <!-- Features -->
+        <div class="wrapper style1">
+
+          <section id="features" class="container special">
+            <header>
+              <h2>How we compare</h2>
+              <p>There are a number of free and paid services offering in-page analytics find out how we compare to these.</p>
+            </header>
+            <div class="row">
+              <article class="4u 12u(mobile) special">
+                <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+                <header>
+                  <h3><a href="#">Google Analytics and Chartbeat</a></h3>
+                </header>
+                <p>
+                  Both these services have real-time analytics offerings, however they only go as far as providing page views and events. We go even further showing
+                  in page analytics of how users move their mouse and scroll in real time.
+                </p>
+              </article>
+              <article class="4u 12u(mobile) special">
+                <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                <header>
+                  <h3><a href="#">Crazyegg, hotjar, and Session cam</a></h3>
+                </header>
+                <p>
+                  These services offer heat-maps of how people are using your website however the data is not in real-time.
+                </p>
+              </article>
+              <article class="4u 12u(mobile) special">
+                <a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+                <header>
+                  <h3><a href="#">Inspectlet, Simple Heatmaps</a></h3>
+                </header>
+                <p>
+                  We are the only open source implementation, so you can fully inspect what the library is doing on your website,
+                  and even customize it if you want to.
+                </p>
+              </article>
+            </div>
+          </section>
+
+        </div>
+
+      <!-- Footer -->
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="12u">
+
+                <!-- Contact -->
+                  <section class="contact">
+                    <header>
+                      <h3>Spread the word!</h3>
+                    </header>
+                    <p>We want to build the best in page analytics library! Help us out, connect with us on social media</p>
+                    <ul class="icons">
+                      <li><a href="http://www.twitter.com/seeyourvisitors" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                      <li><a href="https://uk.linkedin.com/in/garybroberts" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                      <li><a href="https://github.com/seeyourvisitors" class="icon fa-github"><span class="label">Github</span></a></li>
+                      <li><a href="http://stackoverflow.com/questions/tagged/seeyourvisitors" class="icon fa-stack-overflow"><span class="label">Stack Overflow</span></a></li>
+                    </ul>
+                  </section>
+
+                <!-- Copyright -->
+                  <div class="copyright">
+                    <ul class="menu">
+                      <li>&copy; Tall Street Limited. All rights reserved.</li></li>
+                    </ul>
+                  </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+  </body>
+</html>
