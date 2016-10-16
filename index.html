@@ -16,7 +16,6 @@
         databaseURL: "https://seeyourvisitors-1b878.firebaseio.com"
     });
     gg('track');
-    gg('viewresults', '/heatmap.js');
     </script>
   </head>
   <body class="homepage">
@@ -130,8 +129,12 @@
                       databaseURL: "YOUR_FIREBASE_DATABASE"
                   });
                   gg('track');
-                  gg('viewresults', 'https://www.seeyourvisitors.com/heatmap.js');
                   &lt;/script&gt;
+              </pre>
+
+              To View results, just to to a page and type in your javascript console:
+              <pre>
+                  gg('viewresults', 'http://www.seeyourvisitors.com/heatmap.js');
               </pre>
             </p>
             <footer>
